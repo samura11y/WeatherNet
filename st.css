@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: #C8E5F5;
+    color: #086CA2;
+}
+
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+header img{
+    width: 64px;
+}
+
+main{
+    width: 768px;
+    margin: auto;
+    padding: 16px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.city{
+    width: 32%;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    background-image: url("weather_icons.png");
+    background-size: 555%;
+
+}
+.w1{
+    background-position: 1% 1%;
+}
